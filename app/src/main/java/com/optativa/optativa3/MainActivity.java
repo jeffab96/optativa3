@@ -23,7 +23,7 @@ String c2 = "fab1";
         if(n1.equals("jeff")){
             Intent siguiente = new Intent(this, Opciones.class);
             startActivity(siguiente);
-            
+
         }
 
     }
