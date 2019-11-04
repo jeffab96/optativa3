@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="siguiente"
     tools:context=".MainActivity">
 
     <TextView
@@ -70,7 +71,7 @@
         app:layout_constraintVertical_bias="0.408" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/entrada_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

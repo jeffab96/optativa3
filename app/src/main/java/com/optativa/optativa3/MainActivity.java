@@ -20,9 +20,10 @@ String c2 = "fab1";
     }
 
     public void siguiente(View view){
-        if(n1.equals("w")){
+        if(n1.equals("jeff")){
             Intent siguiente = new Intent(this, Opciones.class);
             startActivity(siguiente);
+            
         }
 
     }
